@@ -8,8 +8,8 @@ export async function generateMetadata(props: any) {
 }
 
 export default function Home(props: any) {
-  console.log("props.params from Home Page", props.params);
-  return (
+    console.log("props.params from Home Page", props.params);
+    return (
     <div>
       <h1>This is the Home Page</h1>
       <p>

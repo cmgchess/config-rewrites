@@ -9,6 +9,7 @@ export async function generateMetadata(props: any) {
 
 const Dashboard = (props: any) => {
   console.log("props.params from Dashboard Page", props.params);
+
   return (
     <div>
       <h1>This is the Dashboard Page</h1>

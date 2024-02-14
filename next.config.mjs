@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: "/:locale(en|fr|de)/dashboard",
-        destination: "/dashboard",
+        destination: "/dashboard/:locale",
       },
     ];
   },
